@@ -4,7 +4,7 @@
   "description": "Web Project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nauman Moiz Mohammed Abdul",
@@ -14,15 +14,17 @@
     "body-parser": "*",
     "connect-flash": "*",
     "cookie-parser": "^1.4.1",
-    "express": "*",
+    "express": "^4.16.2",
     "express-handlebars": "*",
     "express-messages": "*",
     "express-session": "*",
     "express-validator": "*",
     "mongodb": "*",
     "mongoose": "*",
+    "nodemon": "^1.14.12",
     "passport": "*",
     "passport-http": "*",
-    "passport-local": "*"
+    "passport-local": "*",
+    "socket.io": "^2.0.4"
   }
 }
