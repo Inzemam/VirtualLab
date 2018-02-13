@@ -1,0 +1,30 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "Web Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nauman Moiz Mohammed Abdul",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.16.2",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "nodemon": "^1.14.12",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "socket.io": "^2.0.4"
+  }
+}
