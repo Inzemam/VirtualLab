@@ -2,12 +2,6 @@
   "name": "VirtualLabs",
   "version": "1.0.0",
   "description": "Web Project",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "Nauman Moiz Mohammed Abdul",
-  "license": "ISC",
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
@@ -25,5 +19,11 @@
     "passport-http": "*",
     "passport-local": "*",
     "socket.io": "^2.0.4"
-  }
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Nauman Moiz Mohammed Abdul",
+  "license": "ISC"
 }
