@@ -5,7 +5,7 @@ app.use(express.static(__dirname + '/routes'));
 //Store all HTML files in view folder.
 app.use(express.static(__dirname + '/public'));
 //Store all JS and CSS in Scripts folder.
-app.use(express.static(__dirname + '/views'));
+//app.use(express.static(__dirname + '/views'));
 
 app.get('/',function(req,res){
   res.sendFile('index.html');
@@ -31,9 +31,5 @@ app.get('/',function(req,res){
 // app.use(express.static(path.join(__dirname, 'public')));
 //
 // app.use('/lectures', lecture);
-
-
-
-
 
 app.listen(process.env.PORT || 3000);
